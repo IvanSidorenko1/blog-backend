@@ -55,15 +55,15 @@
 4. Установити  MoongoDB Compass
 5. Підключитись до MoongoDB через программу MoongoDB Compass
 6. В index.js підключити MoongoDB
-   ```
+   
+   `
   mongoose
    .connect(
      "всталяємо наш URI з MoongoDB замість <user name> та <password> вставити username та password використаний при створенні кластера")
    .then(() => {console.log("DB ok");})
    .catch((err) => console.log("DB error", err));
-
-   ```
-7. В терміналі прописати npm run start:dev (запустити сервер, в терміналі буде сповіщення "DB ok" та "server ok")
-8. Установити Insomnia для тестування запитів (або скачати fronend до цього проекта та робити запити з додатку)
+`
+8. В терміналі прописати npm run start:dev (запустити сервер, в терміналі буде сповіщення "DB ok" та "server ok")
+9. Установити Insomnia для тестування запитів (або скачати fronend до цього проекта та робити запити з додатку)
 
 
