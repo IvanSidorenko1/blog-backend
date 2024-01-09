@@ -54,7 +54,7 @@
 3. Створити новий кластер в MoongoDB
 4. Установити  MoongoDB Compass
 5. Підключитись до MoongoDB через программу MoongoDB Compass
-6. В index.js підключити MoongoDB
+6. В index.js підключити MoongoDB(строка 17)
    
    `
   mongoose
