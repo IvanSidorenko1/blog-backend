@@ -16,7 +16,7 @@ import { PostController, UserController } from "./controllers/index.js";
 
 mongoose
   .connect(
-    "mongodb+srv://admin:var1009@cluster1009.2ocq0sj.mongodb.net/blog?retryWrites=true&w=majority"
+    "ваш URI отриманий при створенні кластера"
   )
   .then(() => {
     console.log("DB ok");
@@ -24,7 +24,7 @@ mongoose
   .catch((err) => console.log("DB error", err));
 
 const app = express();
-// создаєм схоdищє для файлов за допомогою мультер
+// создаєм сховищє для файлов за допомогою мультер
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "uploads");
